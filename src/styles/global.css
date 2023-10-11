@@ -1,0 +1,62 @@
+* {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* reset the sidebar styling*/
+.css-ewdv3l {
+  height: 100% !important;
+}
+.active {
+  color: #ff0000;
+  background-color: #f3f3f3;
+  border-radius: 10px !important;
+}
+
+.ps-menu-button {
+  padding-right: 15px !important;
+  padding-left: 12px !important;
+}
+.ps-menu-button:hover {
+  background-color: #f3f3f3;
+  border-radius: 10px !important;
+}
+
+/* style table */
+
+tbody tr {
+  background-color: white;
+  border-radius: 20px !important;
+}
+
+tr td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+tr td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+.basic-table td,
+.basic-table th {
+  border: none;
+  padding: 5px 5px;
+}
+
+.basic-table tr {
+  border-bottom: 1px solid #f1f4fa;
+}
+
+.basic-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* Style the dropzone */
+.custom-dropzone {
+  min-width: 175px !important;
+}

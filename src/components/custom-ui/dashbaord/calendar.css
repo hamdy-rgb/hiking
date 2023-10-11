@@ -1,0 +1,89 @@
+.fc .fc-toolbar.fc-header-toolbar {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.fc .fc-toolbar-title {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+/* styling the button */
+
+.fc th {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.fc .fc-scrollgrid-liquid {
+  border: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child):focus {
+  box-shadow: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child):focus {
+  box-shadow: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+.fc .fc-today-button {
+  display: none;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #f3f3f3;
+}
+
+.fc-daygrid-dot-event.fc-event-mirror,
+.fc-daygrid-dot-event:hover {
+  background: unset;
+}
+
+.fc .fc-popover {
+  border-radius: 10px;
+  border: none;
+}
+
+.fc .fc-popover-body {
+  width: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.fc-theme-standard .fc-popover-header {
+  background-color: rgb(71, 168, 163, 0.6);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-transform: capitalize;
+}
+
+.fc-event:focus::after {
+  background-color: transparent;
+  z-index: -9;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.fc-event:focus {
+  box-shadow: none;
+  cursor: pointer;
+}
